@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=IBM+Plex+Serif&family=Love+Ya+Like+A+Sister&family=Nosifer&family=Playfair+Display:ital,wght@1,800&family=Poppins&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;1,8..144,700&family=Ubuntu&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Nosifer', sans-serif;
+    letter-spacing: 4px;
+    color: aliceblue;
+    
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow:4px 5px 10px rgba(0,0,0,0.93);
+    font-size: 55px;
+    color: aliceblue;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  
+  .clock > div {
+    margin: 9px;
+  }
+  .clock .text{
+    font-size: 20px;
+    text-shadow: 4px 5px 10px rgba(60, 50, 50, 0.93);
+    font-family: 'Love Ya Like A Sister', cursive;
+  }
+  h1{
+    font-size: 35px;
+    text-shadow: 4px 5px 10px rgba(0,0,0,0.93);
+  }
+
+  
+  @media (max-width: 768px) {
+    .clock {
+      flex-direction: column;
+    }
+    
+    .clock > div {
+      margin: 10px 0;
+    }
+    .clock .text{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 30px;
+        text-shadow: 4px 5px 10px rgba(0,0,0,0.93);
+    }
+  }
+#ampm{
+    display: none;
+}
+  
